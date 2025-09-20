@@ -7,12 +7,15 @@ import clerkWebhooks from "./controllers/clerkWebhooks.js";
 
 connectDB()
 
+
+const app=express()
+app.use(cors())   // enable cross-origin sharing
+
+
 //Middleware
 app.use(express.json())
 app.use(clerkMiddleware())
 
-const app=express()
-app.use(cors())   // enable cross-origin sharing
 
 //Api to listen to Clerk Webhooks
 app.use("/api/clerk", clerkWebhooks)

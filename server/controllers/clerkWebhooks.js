@@ -1,7 +1,7 @@
 import { json } from "express";
-import user from "../models/user.js";
+import User from "../models/user.js";
 import { Webhook } from "svix";
-import { User } from "@clerk/express";
+
 
 const clerkWebhooks = async (req,res)=>{
     try{
