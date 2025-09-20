@@ -9,6 +9,6 @@ const userSchema = mongoose.Schema({
     recentSearchedCities:{type:String, required:true},
 },{timestamps:true});
 
-const user =mongoose.model("user", userSchema);
+const User =mongoose.model("User", userSchema);
 
- export default user
+ export default User
