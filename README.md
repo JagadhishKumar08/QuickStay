@@ -1,9 +1,10 @@
 <h1> Hotel booking management system</h1>
-LIVE DEMO <a href="https://quickstay-ruby-seven.vercel.app/" alt="hotel booking"/>
-<p>
-  This project is a Hotel Booking Management System built using React and Tailwind CSS, focused purely on the user interface (UI layer). It demonstrates the design and flow of a modern hotel booking application without backend integration.
 
-✨ Features (UI Only)
+## <p>
+  This project is a Hotel Booking Management System built using React and Tailwind CSS, focused purely on the user interface (UI layer). It demonstrates the design and flow of a modern hotel booking application without backend integration.</p>
+  ## LIVE DEMO <a href="https://quickstay-ruby-seven.vercel.app/" alt="hotel booking"/>LINK
+
+## ✨ Features (UI Only)
 
 Homepage – Showcases available hotels with images, descriptions, and pricing.
 
@@ -17,13 +18,13 @@ Responsive Design – Built with Tailwind CSS, ensuring mobile, tablet, and desk
 
 Navigation – Smooth navigation between pages (Home → Hotels → Booking → Confirmation).
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 React.js – Component-based UI development.
 
 Tailwind CSS – Utility-first styling for a clean and modern design.
 
-🚀 How the App Works (UI Flow)
+## 🚀 How the App Works (UI Flow)
 
 A user lands on the homepage and sees featured hotels.
 
